@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ab4cf08-c2cb-4571-8df9-5ba318f7a2d9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/CalculateMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CalculateMethodsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Code.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CodeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +54,7 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.CalculateMethodsTest">
+  <component name="RunManager" selected="JUnit.CodeTest.testSayHello">
     <configuration name="CalculateMethodsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit-example" />
       <option name="PACKAGE_NAME" value="" />
@@ -87,8 +84,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CodeTest.testSayHello" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit-example" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CodeTest" />
+      <option name="METHOD_NAME" value="testSayHello" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CodeTest.testSayHello" />
         <item itemvalue="JUnit.CalculateMethodsTest" />
         <item itemvalue="JUnit.CalculateMethodsTest.testDivide" />
         <item itemvalue="JUnit.CalculateMethodsTest.testDivideByZero" />
@@ -106,6 +114,17 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
@@ -114,7 +133,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/CalculateMethodsTest.java</url>
-          <line>15</line>
+          <line>16</line>
           <properties class="CalculateMethodsTest" method="testDivide">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
